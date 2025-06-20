@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     messageDiv.textContent = "Processando inscrição...";
     messageDiv.className = "message info";
     messageDiv.classList.remove("hidden");
+    // Validar campos 
     
     // Desabilitar o botão de submit durante o processamento
     const submitButton = signupForm.querySelector("button[type='submit']");
